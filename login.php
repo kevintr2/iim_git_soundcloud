@@ -30,7 +30,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
                 if(sizeof($users) > 0){
 
                     $id_member = $users[0]["id"];
-                    $_SESSION["id_member"] = $id_member;
+                    $_SESSION["id"] = $id_member;
 
                     header('Location:dashboard.php');
                 }
