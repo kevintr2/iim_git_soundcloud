@@ -212,15 +212,15 @@ p.account a {
 }
 
 .music:hover{
-	border: solid 1px #f50;
+	border: solid 1px #1abc9c;
 }
 
 .music.playing {
-	border: solid 1px #f50;
+	border: solid 1px #1abc9c;
 }
 
 .music.playing h3{
-	color: #f50;
+	color: #1abc9c;
 	font-weight: bold;
 }
 
