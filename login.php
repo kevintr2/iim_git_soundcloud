@@ -14,15 +14,34 @@ require('model/functions.fn.php');
 if(isset($_POST['email']) && isset($_POST['password'])){
 	if(!empty($_POST['email']) && !empty($_POST['password'])){
 
-		// TODO
+		$email = htmlspecialchars($_POST['email']);
+		$password = sha1($_POST['password']);
 
-		// Force user connection to access dashboard
-		userConnection($db, 'git@initiation.com', 'password');
-		
-		header('Location: dashboard.php');
+		$req = $db->prepare('SELECT id FROM users WHERE email LIKE :email AND password LIKE :password');
+		$req->execute(
+			array(
+				'email' => $email,
+				'password' => $password
+				)
 
-	}else{
-		$error = 'Champs requis !';
+			);
+
+		$users = $req->fetchALL();
+                if(sizeof($users) > 0){
+
+                    $id_member = $users[0]["id"];
+                    $_SESSION["id_member"] = $id_member;
+
+                    header('Location:dashboard.php');
+                }
+                else {
+                    echo '<div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="alert alert-danger"><strong>Pseudo ou Mot de passe incorrect !</strong> Veuillez réessayer</div>
+                        </div>
+                    </div>';
+                }
+
 	}
 }
 
