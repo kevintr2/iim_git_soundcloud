@@ -17,7 +17,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 		$email = htmlspecialchars($_POST['email']);
 		$password = sha1($_POST['password']);
 
-		$req = $db->prepare('SELECT id FROM users WHERE email LIKE :email AND password LIKE :password');
+		$req = $db->prepare('SELECT id, username FROM users WHERE email LIKE :email AND password LIKE :password');
 		$req->execute(
 			array(
 				'email' => $email,
@@ -31,6 +31,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
                     $id_member = $users[0]["id"];
                     $_SESSION["id"] = $id_member;
+                    $_SESSION["username"] = $users[1]["username"];
 
                     header('Location:dashboard.php');
                 }
