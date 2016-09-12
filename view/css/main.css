@@ -411,3 +411,11 @@ p.account a {
 	font-family: monospace;
 	font-size: 10px; /* reduced font size */
 }
+
+.welcome {
+	margin-top: 5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
