@@ -147,7 +147,7 @@ p.account a {
 }
 
 .logo {
-	color: #FF5500;
+	color: #1abc9c;
 	font-size: 40px;
 	line-height: 1;
 }
@@ -169,8 +169,8 @@ p.account a {
 
 #topbar a.btn {
 	border: none;
-	background-color: #f50;
-	border: solid 1px #F50;
+	background-color: #1abc9c;
+	border: solid 1px #1abc9c;
 	float: right;
 	line-height: 25px;
 	color:white;
@@ -183,8 +183,8 @@ p.account a {
 
 #topbar a.btn:hover {
 	background-color: #fff;
-	color: #F50;
-	border: solid 1px #F50;
+	color: #1abc9c;
+	border: solid 1px #1abc9c;
 	text-decoration: none;
 }
 
