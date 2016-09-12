@@ -31,7 +31,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
                     $id_member = $users[0]["id"];
                     $_SESSION["id"] = $id_member;
-                    $_SESSION["username"] = $users[1]["username"];
+                    $_SESSION["username"] = $users[0]["username"];
 
                     header('Location:dashboard.php');
                 }
