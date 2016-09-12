@@ -23,6 +23,10 @@
 										<input type="text" name="title" class="form-control">
 									</div>
 									<div class="form-group">
+										<label for="comment">Commentaire</label>
+										<textarea class="form-control" name="comment" placeholder="Qu'en pensez vous?"></textarea>
+									</div>
+									<div class="form-group">
 										<label for="file">Musique</label>
 										<input type="file" name="music">
 										<p>
