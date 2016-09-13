@@ -14,6 +14,12 @@ body {
 	font-size: 23px;
 }
 
+.landinglinks:hover{
+	text-decoration: none;
+	color:#d8d8d8;
+	transition: 0.5s;
+}
+
 
 input:focus {
   outline: none;
