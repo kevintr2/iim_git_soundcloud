@@ -17,8 +17,6 @@ include 'view/_topbar.php';
         </div>
     </div>
 <?php
-$action=$_REQUEST['action'];
-if ($action=="")    /* display the contact form */
     {
     ?>
     <form id="contactform" action="" method="POST" enctype="multipart/form-data">
