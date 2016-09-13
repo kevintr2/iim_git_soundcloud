@@ -1,6 +1,9 @@
 <body style="background-color: #333;">
 	<section id="login-container">
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 midway-horizontal midway-vertical fadeInDown animated">
+
+
+			<i class="fa fa-soundcloud loginlogo" aria-hidden="true"></i>
 			<div id="logbox">
 			<?php if(isset($error) && !empty($error)){ ?>
 				<div class="alert alert-danger alert-dismissable">
