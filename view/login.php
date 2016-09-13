@@ -24,7 +24,7 @@
 						</span>
 					</div>
 					<div class="form-submit">
-						<input type="submit" value="Connecter">	
+						<input type="submit" value="Se connecter">	
 					</div>
 					<p class="account">Vous n'avez pas de compte ? <a href="register.php">Inscrivez vous !</a></p>
 				</form>
