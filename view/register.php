@@ -28,6 +28,11 @@
 							<input type="password" name="password" placeholder="Password">
 						</span>
 					</div>
+					<div class="form-input">
+						<span class="musicstyle">
+							<input type="text" name="musicstyle" placeholder="Style de musique">
+						</span>
+					</div>
 
 					<div class="form-submit">
 						<input type="submit" value="Je m'inscris !">	
