@@ -53,13 +53,15 @@ input:focus {
 
 #logbox .form-input .username,
 #logbox .form-input .password,
-#logbox .form-input .email {
+#logbox .form-input .email,
+#logbox .form-input .musicstyle {
 	position: relative;
 }
 
 #logbox .form-input .username:before,
 #logbox .form-input .password:before,
-#logbox .form-input .email:before {
+#logbox .form-input .email:before,
+#logbox .form-input .musicstyle:before {
 	position: relative;
 	font-family: FontAwesome;
 	position: absolute;
@@ -84,6 +86,11 @@ input:focus {
 #logbox .form-input .email:before {
 	content: "\f0e0";
 }
+
+#logbox .form-input .musicstyle:before {
+	content: "\f001";
+}
+
 
 #logbox .form-submit input[type="submit"] {
 	display: block;
