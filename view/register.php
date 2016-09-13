@@ -15,7 +15,7 @@
 				<form method="POST" action="validation.php">
 					<div class="form-input">
 						<span class="username">
-							<input type="text" name="username" placeholder="Username">
+							<input type="text" name="username" placeholder="Nom d'utilisateur">
 						</span>
 					</div>
 					<div class="form-input">
