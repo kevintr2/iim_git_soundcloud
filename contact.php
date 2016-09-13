@@ -2,6 +2,7 @@
 
 <html lang="fr">
 <?php
+session_start();
 include 'view/_header.php';
 include 'view/dashboard.php';
 ?>
