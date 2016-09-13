@@ -426,3 +426,8 @@ p.account a {
 	text-align: center;
 	width:100%;
 }
+
+#contactform{
+	margin-left: 550px;
+	margin-top: 10px;
+}
