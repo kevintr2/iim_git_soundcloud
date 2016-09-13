@@ -8,6 +8,7 @@
 					</div>
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-top:9px;"> <span class="welcome">Bienvenue <?php echo $_SESSION['username']; ?></span> </div>
 					<div class="col-xs-7 col-sm-7 col-md-8 col-lg-8">
+					    <a href="contact.php" class="btn">Contact</a>
 						<a href="logout.php" class="btn">Déconnexion</a>
 						<a href="edit_image.php" class="btn">Profil</a>
 						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Ajouter une musique</a>
