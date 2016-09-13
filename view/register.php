@@ -25,7 +25,7 @@
 					</div>
 					<div class="form-input">
 						<span class="password">
-							<input type="password" name="password" placeholder="Password">
+							<input type="password" name="password" placeholder="Mot de passe">
 						</span>
 					</div>
 					<div class="form-input">
