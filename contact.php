@@ -1,11 +1,21 @@
 <!doctype html>
 
 <html lang="fr">
+<body>
 <?php
 session_start();
 include 'view/_header.php';
-include 'view/dashboard.php';
+include 'view/_topbar.php';
 ?>
+	<div class="container">
+		<div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div id="musicfeed">
+                   <h1><i class="fa"></i> Contactez Nous</h1>
+               </div>
+           </div>
+        </div>
+    </div>
 <?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
@@ -43,3 +53,4 @@ else                /* send the submitted data */
 <?php 
 include 'view/_footer.php';
 ?>
+</body>
