@@ -13,7 +13,7 @@ include 'view/_topbar.php';
 </head>
 <body>
 <!-- CONTENT -->
-  <div class="container">
+  <div id="margincontact" class="container">
   <?php if(array_key_exists('errors',$_SESSION)): ?>
   <div class="alert alert-danger">
   <?= implode('<br>', $_SESSION['errors']); ?>
