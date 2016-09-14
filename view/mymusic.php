@@ -27,7 +27,7 @@
                 ?>
 
                 <h3><?php echo $data["title"]; ?></h3>
-                <h5><a style="text-decoration:none; color:red;" href="delete_comment.php?id=<?php echo $id ; ?>"><i class="fa fa-times" aria-hidden="true"></i> Supprimer </a> <span style="color:#95a5a6;"> | </span><a style="text-decoration:none;" href="update_comment.php?id=<?php echo $id ; ?>"> <i class="fa fa-pencil" aria-hidden="true"></i> Modifier</a></h5>
+                <h5><a style="text-decoration:none; color:red;" href="delete_music.php?id=<?php echo $id ; ?>"><i class="fa fa-times" aria-hidden="true"></i> Supprimer </a> <span style="color:#95a5a6;"> | </span><a style="text-decoration:none;" href="update_music.php?id=<?php echo $id ; ?>"> <i class="fa fa-pencil" aria-hidden="true"></i> Modifier</a></h5>
                 <hr>
 
                 <?php } ?>
