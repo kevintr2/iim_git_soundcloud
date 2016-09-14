@@ -23,7 +23,7 @@ if(isset($_GET) && !empty($_GET)){
 		header('Location: mymusic.php');
 	}
 	else{
-		echo 'Vous n\'avez pas les droits pour effectuer cette action !';
+		echo 'Aucune musique selectionnée, veuillez réessayer';
 	}
 
 }
