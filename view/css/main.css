@@ -173,13 +173,13 @@ p.account a {
 }
 
 .logo {
-	color: #1abc9c;
+	color: #fff;
 	font-size: 40px;
 	line-height: 1;
 }
 
 .logo:hover {
-	color: white;
+	color: #95a5a6;
 }
 
 #topbar h2 {
