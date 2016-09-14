@@ -14,9 +14,11 @@ if(isset($_GET) && !empty($_GET)){
 
 
 
-		$request = $db->prepare("DELETE FROM musics WHERE id = :id");
+		$request = $db->prepare("DELETE FROM musics WHERE id = :id AND user_id = :user_id");
 
-        $request->execute(["id" => $_GET["id"]]);
+        $request->execute(["id" => $_GET["id"],
+        					"user_id" => $_SESSION["id"]
+        					]);
 
 		header('Location: mymusic.php');
 	}
