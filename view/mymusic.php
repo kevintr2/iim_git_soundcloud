@@ -18,7 +18,20 @@
 								}
 
 
-?>
+
+                    $req = $db->prepare("SELECT title FROM musics WHERE user_id = :user_id");
+
+                    $req->execute(array(
+                    	'user_id' => $id
+                    		)
+                   	 	);
+
+                    while ($data = $req->fetch()){
+                ?>
+
+                <h2>•<?php echo $data["title"]; ?></h2>
+
+                <?php } ?>
 
 							</div>
 						</div>
