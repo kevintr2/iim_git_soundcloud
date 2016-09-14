@@ -8,15 +8,10 @@ session_start();
 include 'view/_header.php';
 include 'view/_topbar.php';
 ?>
-
-  <title>Formulaire de contact - Version minimale</title>
-  <!-- call bootstrap -->
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
-  </div>
-  </div>
 <!-- CONTENT -->
   <div class="container">
   <?php if(array_key_exists('errors',$_SESSION)): ?>
@@ -48,13 +43,6 @@ include 'view/_topbar.php';
   <label for="inputmessage">Votre message</label>
   <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
   </div><!--/*.form-group-->
-  </div><!--/*.col-md-12-->
-<div class="col-md-12">
-  <div class="checkbox">
-  <label for="checkspam">
-  <input type="checkbox" name="antispam" id="checkspam">Je suis un spammer et je l'assume!
-  </label>
-  </div>
   </div><!--/*.col-md-12-->
 <div class="col-md-12">
   <button type='submit' class='btn btn-primary'>Envoyer</button>
