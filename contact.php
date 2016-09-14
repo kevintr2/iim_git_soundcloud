@@ -84,7 +84,7 @@ if(array_key_exists('antispam', $_POST)) {// on place un petit filet anti robots
   $headers  = 'MIME-Version: 1.0' . "\r\n";
   $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
   $headers .= 'FROM:' . htmlspecialchars($_POST['email']);
-  $to = 'Votre_adresse_email_est_ici@mail.fr'; // Insérer votre adresse email ICI
+  $to = 'fscalabrin2@gmail.com'; // Insérer votre adresse email ICI
   $subject = 'Message envoyé par ' . htmlspecialchars($_POST['name']) .' - <i>' . htmlspecialchars($_POST['email']) .'</i>';
   $message_content = '
   <table>
@@ -95,7 +95,7 @@ if(array_key_exists('antispam', $_POST)) {// on place un petit filet anti robots
   <td>'. $subject . '</td>
   </tr>
   <tr>
-  <td><b>Contenu du message:</b></td>
+  <td><b> Contenu du message: </b></td>
   </tr>
   <tr>
   <td>'. htmlspecialchars($_POST['message']) .'</td>
