@@ -17,4 +17,10 @@ include 'view/_topbar.php';
 					<h1><i class="fa fa-clock-o"></i> Top des musiques du moment</h1>
 						<div class="music animated fadeInDown">
 							<div class="row">
-								<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/9bBx_6Ih5B0/maxresdefault.jpg" class="retoucheimage">
+								       Ivan B - Lights On Me (Prod. Tido Vegas)
+
+<?php 
+include 'view/_footer.php';
+?>
