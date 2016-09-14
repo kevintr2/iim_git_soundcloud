@@ -24,7 +24,7 @@ include 'view/_topbar.php';
   Votre email à bien été transmis !
   </div>
   <?php endif; ?>
-<form action="send_form.php" method="post">
+<form action="contact.php" method="post">
   <div class="row">
 <div class="col-md-6">
   <div class="form-group">
