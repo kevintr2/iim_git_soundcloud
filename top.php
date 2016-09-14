@@ -20,6 +20,13 @@ include 'view/_topbar.php';
 								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
 								   <img src="https://i.ytimg.com/vi/9bBx_6Ih5B0/maxresdefault.jpg" class="retoucheimage">
 								       Ivan B - Lights On Me (Prod. Tido Vegas)
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 text-center">
+															    <div class="col-xs-7 col-sm-7 col-md-8 col-lg-8">
+															      <a class="btn" class="boutontop">Ecouter</a>
 
 <?php 
 include 'view/_footer.php';
