@@ -11,7 +11,14 @@ require('model/functions.fn.php');
 if(isset($_GET) && !empty($_GET)){
 	$delete = deleteMusic($db, $_GET['id'], $_SESSION['id']);
 	if($delete == true){
-		header('Location: dashboard.php');
+
+
+
+		$request = $db->prepare("DELETE FROM musics WHERE id = :id");
+
+        $request->execute(["id" => $_GET["id"]]);
+
+		header('Location: mymusic.php');
 	}
 	else{
 		echo 'Vous n\'avez pas les droits pour effectuer cette action !';
