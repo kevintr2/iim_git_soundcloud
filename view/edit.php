@@ -8,7 +8,7 @@
 					<div class="block animated fadeInDown">
 						<div class="row">
 							<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
-								<b class="title"><?php echo $music['title']; ?></b>
+								<h2 class="title"><?php echo $music['title']; ?></h2><br>
 								<form action="#" method="POST">
 									<div class="form-group">
 										<label for="title">Titre</label>
