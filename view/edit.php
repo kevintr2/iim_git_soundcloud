@@ -14,6 +14,10 @@
 										<label for="title">Titre</label>
 										<input type="text" name="title" class="form-control" value="<?php echo $music['title']; ?>"/>
 									</div>
+									<div class="form-group">
+										<label for="comment">Commentaire</label>
+										<textarea class="form-control" name="comment"><?php echo $music['comment']; ?></textarea>
+									</div>
 									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i> Valider</button></p>
 								</form>
 							</div>
