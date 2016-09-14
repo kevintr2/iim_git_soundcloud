@@ -14,11 +14,7 @@ include 'view/_topbar.php';
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-<body style="padding:100px 0 200px 0">
-  <div style="padding-bottom:100px" class="container">
-  <div class="row">
-  <div class="col-md-12">
-  <hr>
+<body>
   </div>
   </div>
 <!-- CONTENT -->
