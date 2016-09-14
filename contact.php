@@ -1,53 +1,78 @@
 <!doctype html>
 
 <html lang="fr">
+<meta charset="utf-8">
 <body>
 <?php
 session_start();
 include 'view/_header.php';
 include 'view/_topbar.php';
 ?>
-	<div class="container">
-		<div class="row">
-           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-               <div id="musicfeed">
-                   <h1><i class="fa"></i> Contactez Nous</h1>
-               </div>
-           </div>
-        </div>
-    </div>
-<?php
-    {
-    ?>
-    <form id="contactform" action="" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-    Your name:<br>
-    <input name="name" type="text" value="" size="30"/><br>
-    Your email:<br>
-    <input name="email" type="text" value="" size="30"/><br>
-    Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
-    <input type="submit" value="Send email"/>
-    </form>
-    <?php
-    } 
-else                /* send the submitted data */
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=="")||($email=="")||($message==""))
-        {
-		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-	    }
-    else{		
-	    $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-		mail("fscalabrin2@gmail.com", $subject, $message, $from);
-		echo "Email sent!";
-	    }
-    }  
-?>
+
+  <title>Formulaire de contact - Version minimale</title>
+  <!-- call bootstrap -->
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body style="padding:100px 0 200px 0">
+  <div style="padding-bottom:100px" class="container">
+  <div class="row">
+  <div class="col-md-12">
+  <hr>
+  </div>
+  </div>
+<!-- CONTENT -->
+  <div class="container">
+  <?php if(array_key_exists('errors',$_SESSION)): ?>
+  <div class="alert alert-danger">
+  <?= implode('<br>', $_SESSION['errors']); ?>
+  </div>
+  <?php endif; ?>
+  <?php if(array_key_exists('success',$_SESSION)): ?>
+  <div class="alert alert-success">
+  Votre email à bien été transmis !
+  </div>
+  <?php endif; ?>
+<form action="send_form.php" method="post">
+  <div class="row">
+<div class="col-md-6">
+  <div class="form-group">
+  <label for="inputname">Votre nom</label>
+  <input required type="text" name="name" class="form-control" id="inputname" value="<?php echo isset($_SESSION['inputs']['name'])? $_SESSION['inputs']['name'] : ''; ?>">
+  </div><!--/*.form-group-->
+  </div><!--/*.col-md-6-->
+<div class="col-md-6">
+  <div class="form-group">
+  <label for="inputemail">Votre email</label>
+  <input required type="email" name="email" class="form-control" id="inputemail" value="<?php echo isset($_SESSION['inputs']['email'])? $_SESSION['inputs']['email'] : ''; ?>">
+  </div><!--/*.form-group-->
+  </div><!--/*.col-md-6-->
+<div class="col-md-12">
+  <div class="form-group">
+  <label for="inputmessage">Votre message</label>
+  <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
+  </div><!--/*.form-group-->
+  </div><!--/*.col-md-12-->
+<div class="col-md-12">
+  <div class="checkbox">
+  <label for="checkspam">
+  <input type="checkbox" name="antispam" id="checkspam">Je suis un spammer et je l'assume!
+  </label>
+  </div>
+  </div><!--/*.col-md-12-->
+<div class="col-md-12">
+  <button type='submit' class='btn btn-primary'>Envoyer</button>
+  </div><!--/*.col-md-12-->
+</div><!--/*.row-->
+  </form>
+</div><!--/*.container-->
+  <!-- END CONTENT -->
+</body>
+  <?php
+unset($_SESSION['inputs']); // on nettoie les données précédentes
+  unset($_SESSION['success']);
+  unset($_SESSION['errors']);
+  ?>
 <?php 
 include 'view/_footer.php';
 ?>
