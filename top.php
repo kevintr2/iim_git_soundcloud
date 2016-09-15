@@ -268,8 +268,101 @@ include 'view/_topbar.php';
 													<div class="container">
 														<div class="row">
 															<div class="boutontop" >
-															      <a class="btn">Ecouter</a>															      
-													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
+															      <a class="btn">Ecouter</a>	
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://media.senscritique.com/media/000009595557/source_big/Affaire_de_famille.jpg" class="retoucheimage">
+								       MZ - Ma substance ft. Chich	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/i78U3VEAwK8/maxresdefault.jpg" class="retoucheimage">
+								       Uppermost - Beautiful Light
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://artistxite.ca/imgcache/album/005/001/005001050_500.jpg" class="retoucheimage">
+								       Jetta - I'd Love to Change the World (Matstubs Remix)	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>	
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>															      														      
+														      																      															      														      																      															      														      													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
 <?php 
 include 'view/_footer.php';
 ?>
