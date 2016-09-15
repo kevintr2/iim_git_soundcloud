@@ -442,7 +442,117 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>
-															      </div>															      															      
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/2SaB-05BpKw/hqdefault.jpg" class="retoucheimage">
+								       Nev Plays With Himself: Zedd - Spectrum	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>	
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://cdn.koreaboo.com/wp-content/uploads/2015/01/4MINUTE-Crazy-5.jpg" class="retoucheimage">
+								       4MINUTE - 미쳐(Crazy)
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://images.genius.com/9ce4218559f0bba27f108909f327a6a8.869x827x1.jpg" class="retoucheimage">
+								       PNL - DA
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/NG2IUO6bibE/maxresdefault.jpg" class="retoucheimage">
+								       Lorenzo - Freestyle Du Sale
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>															      															      															      															      
+															      															      																      														      														      
+															      															      															      
 														      															      															      
 															      															      															      															      														      
 														      																      															      														      																      															      														      													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
