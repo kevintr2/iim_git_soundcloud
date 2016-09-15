@@ -199,7 +199,77 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>
-															      </div>															      															      																      															      															      														      														      														      															      															      
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://hiphopinfosfrance.com/wp-content/uploads/2016/03/81pL3LHGiL._SL1400_.jpg" class="retoucheimage">
+								       Jazzy Bazz - 3h33
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>	
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/7lX8KJ3Jkos/maxresdefault.jpg" class="retoucheimage">
+								       Jazzy Bazz - 64 mesures de Spleen
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/F7khiq25Xr0/maxresdefault.jpg" class="retoucheimage">
+								       Joey Pecoraro - Tired Boy	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>															      
+													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
 <?php 
 include 'view/_footer.php';
 ?>
