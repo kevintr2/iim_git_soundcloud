@@ -468,5 +468,5 @@ p.account a {
 }
 
 .boutontop{
-	margin-left: 2000px;
+	display: inline-block;
 }

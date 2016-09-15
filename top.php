@@ -24,9 +24,8 @@ include 'view/_topbar.php';
 												<div id="topbar" class="clearfix">
 													<div class="container">
 														<div class="row">
-															<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 text-center">
-															    <div class="col-xs-7 col-sm-7 col-md-8 col-lg-8">
-															      <a class="btn" class="boutontop">Ecouter</a>
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
 
 <?php 
 include 'view/_footer.php';
