@@ -361,7 +361,90 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>
-															      </div>															      														      
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://www.lepetitmaltais.com/wp-content/uploads/2016/08/maxresdefault.jpg" class="retoucheimage">
+								       Alexander Lewis x Brasstracks - Distant Memories	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="https://i.ytimg.com/vi/VKzWLUQizz8/maxresdefault.jpg" class="retoucheimage">
+								       Justice - D.A.N.C.E. 
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://static.booska-p.com/images/news/zoom-sur-la-revelation-cousin-stizz-video-649.jpg" class="retoucheimage">
+								       Cousin Stizz - Fresh Prince	
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>															      															      
+														      															      															      
+															      															      															      															      														      
 														      																      															      														      																      															      														      													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
 <?php 
 include 'view/_footer.php';
