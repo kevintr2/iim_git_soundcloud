@@ -36,6 +36,8 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>
+															      </div>
+															      </div>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -51,6 +53,33 @@ include 'view/_topbar.php';
 														<div class="row">
 															<div class="boutontop" >
 															      <a class="btn">Ecouter</a>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+															      </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">
+								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+								   <img src="http://festivus.pl/wp-content/uploads/2016/04/Woodkid-Land-of-All.jpg" class="retoucheimage">
+								       Woodkid - Land of All
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div id="topbar" class="clearfix">
+													<div class="container">
+														<div class="row">
+															<div class="boutontop" >
+															      <a class="btn">Ecouter</a>															      
 <?php 
 include 'view/_footer.php';
 ?>
