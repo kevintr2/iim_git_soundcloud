@@ -101,7 +101,24 @@ mail($to, $subject, $message_content, $headers);
   header('Location: contact.php');
   }
 ?>
-<?php 
-include 'view/_footer.php';
-?>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="musicfeed">
+            <div class="music animated fadeInDown">
+              <div class="row">                                   
+<footer>
+  <p class="footerme">Coded by : Tran Kevin and Scalabrin Fabien</p>
+  <p class="footerme">Email Adress: <a href="mailto:someone@example.com">
+  soundcloud@gmail.com</a>.</p>
+  <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="https://www.dangercove.com/images/icons/glyphicons_410_facebook@2x.png" class="footerme" id="fbicon"> </a>
+  <a href="https://twitter.com/SoundCloud"><img src="https://freeiconshop.com/files/edd/twitter-solid.png" class="footerme" id="fbicon"> </a>
+  
+</footer>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
