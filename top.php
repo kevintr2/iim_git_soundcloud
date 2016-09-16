@@ -550,12 +550,14 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>
-															      </div>															      															      															      															      
+															      </div>	
+<footer>
+  <p>Posted by: Tran Kevin and Scalabrin Fabien</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  soundcloud@gmail.com</a>.</p>
+</footer>															      														      															      															      															      
 															      															      																      														      														      
 															      															      															      
 														      															      															      
 															      															      															      															      														      
 														      																      															      														      																      															      														      													      															      																      															      														      															      															      																      															      															      														      														      											      															      															      
-<?php 
-include 'view/_footer.php';
-?>
