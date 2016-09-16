@@ -480,3 +480,7 @@ footer {
 	display: inline-block;
 	margin-left: 20px;
 }
+
+#fbicon {
+	width: 4%;
+}
