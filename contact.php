@@ -55,8 +55,7 @@ unset($_SESSION['inputs']);
   unset($_SESSION['errors']);
   ?>
 
-  <?php
-session_start();
+  <?php;
   $errors = array(); 
 if(!array_key_exists('name', $_POST) || $_POST['name'] == '') {
   $errors ['name'] = "vous n'avez pas renseigné votre nom";
@@ -88,14 +87,6 @@ if(array_key_exists('antispam', $_POST)) {
   </tr>
   <tr>
   <td>'. $subject . '</td>
-  </tr>
-  <tr>
-  <td><b> Contenu du message: </b></td>
-  </tr>
-  <tr>
-  <td>'. htmlspecialchars($_POST['message']) .'</td>
-  </tr>
-  </table>
   ';
 mail($to, $subject, $message_content, $headers);
   header('Location: contact.php');
