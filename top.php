@@ -551,11 +551,24 @@ include 'view/_topbar.php';
 															      </div>
 															      </div>
 															      </div>	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div id="musicfeed">
+						<div class="music animated fadeInDown">
+							<div class="row">															      
 <footer>
-  <p>Posted by: Tran Kevin and Scalabrin Fabien</p>
-  <p>Contact information: <a href="mailto:someone@example.com">
+  <p class="footerme">Coded by : Tran Kevin and Scalabrin Fabien</p>
+  <p class="footerme">       Contact information: <a href="mailto:someone@example.com">
   soundcloud@gmail.com</a>.</p>
-</footer>															      														      															      															      															      
+</footer>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>															      														      															      															      															      
 															      															      																      														      														      
 															      															      															      
 														      															      															      
