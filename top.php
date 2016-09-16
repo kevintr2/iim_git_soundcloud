@@ -559,9 +559,11 @@ include 'view/_topbar.php';
 							<div class="row">															      
 <footer>
   <p class="footerme">Coded by : Tran Kevin and Scalabrin Fabien</p>
-  <p class="footerme">Contact information: <a href="mailto:someone@example.com">
+  <p class="footerme">Email Adress: <a href="mailto:someone@example.com">
   soundcloud@gmail.com</a>.</p>
   <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="https://www.dangercove.com/images/icons/glyphicons_410_facebook@2x.png" class="footerme" id="fbicon"> </a>
+  <a href="https://twitter.com/SoundCloud"><img src="https://freeiconshop.com/files/edd/twitter-solid.png" class="footerme" id="fbicon"> </a>
+  
 </footer>
 </div>
 </div>
