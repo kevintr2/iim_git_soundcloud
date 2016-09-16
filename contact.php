@@ -99,7 +99,7 @@ mail($to, $subject, $message_content, $headers);
             <div class="music animated fadeInDown">
               <div class="row">                                   
 <footer>
-  <p class="footerme">Coded by : Tran Kevin and Scalabrin Fabien</p>
+  <p class="footerme">Coded with<img src="https://freeiconshop.com/files/edd/heart-compact-solid.png" id="fbicon">                          by : Tran Kevin and Scalabrin Fabien</p>
   <p class="footerme">Email Adress: <a href="mailto:someone@example.com">
   soundcloud@gmail.com</a>.</p>
   <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="http://lh5.googleusercontent.com/-0MlsUFgr9nc/AAAAAAAAAAI/AAAAAAAAAFQ/A1IXqZeR9CQ/s512-c/photo.jpg class="footerme" id="fbicon"> </a>
