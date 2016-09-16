@@ -72,7 +72,7 @@ include 'view/_topbar.php';
 						<div class="music animated fadeInDown">
 							<div class="row">
 								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-								   <img src="http://festivus.pl/wp-content/uploads/2016/04/Woodkid-Land-of-All.jpg" class="retoucheimage">
+								   <img src="http://news.jukebo.fr/files/2012/12/woodkid.jpg" class="retoucheimage">
 								       Woodkid - Land of All
 											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 												<div id="topbar" class="clearfix">
@@ -477,7 +477,7 @@ include 'view/_topbar.php';
 						<div class="music animated fadeInDown">
 							<div class="row">
 								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-								   <img src="http://cdn.koreaboo.com/wp-content/uploads/2015/01/4MINUTE-Crazy-5.jpg" class="retoucheimage">
+								   <img src="http://img.allformusic.fr/pochette/300/4/4minute/best-of-4minute-compil.jpg" class="retoucheimage">
 								       4MINUTE - 미쳐(Crazy)
 											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 												<div id="topbar" class="clearfix">
