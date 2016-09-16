@@ -561,7 +561,7 @@ include 'view/_topbar.php';
   <p class="footerme">Coded by : Tran Kevin and Scalabrin Fabien</p>
   <p class="footerme">Email Adress: <a href="mailto:someone@example.com">
   soundcloud@gmail.com</a>.</p>
-  <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="https://www.dangercove.com/images/icons/glyphicons_410_facebook@2x.png" class="footerme" id="fbicon"> </a>
+  <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="http://lh5.googleusercontent.com/-0MlsUFgr9nc/AAAAAAAAAAI/AAAAAAAAAFQ/A1IXqZeR9CQ/s512-c/photo.jpg" class="footerme" id="fbicon"> </a>
   <a href="https://twitter.com/SoundCloud"><img src="https://freeiconshop.com/files/edd/twitter-solid.png" class="footerme" id="fbicon"> </a>
   
 </footer>
